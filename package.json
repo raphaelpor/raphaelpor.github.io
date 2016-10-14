@@ -45,6 +45,9 @@
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gh-pages": "^0.11.0",
     "html-webpack-plugin": "^2.22.0",
     "ignore-styles": "^5.0.1",
     "jsdom": "^9.6.0",
@@ -53,6 +56,7 @@
     "react-addons-test-utils": "^15.3.2",
     "style-loader": "^0.13.1",
     "svgstore": "^1.1.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
   }
