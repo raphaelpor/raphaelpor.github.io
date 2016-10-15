@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   template: path.resolve(__dirname, 'index.html'),
@@ -37,25 +36,19 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract(
-          'style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
-        )
+        loader: 'style-loader!css-loader',
       }
     ]
-  },
-  resolve: {
-    modulesDirectories: ['node_modules']
   },
   eslint: {
     failOnWarning: true,
     failOnError: true,
   },
   plugins: [
-    new ExtractTextPlugin('style.css', { allChunks: true }),
     HTMLWebpackPluginConfig,
     new CopyWebpackPlugin([
       { from: './css/**/*', to: './' },
-      { from: './assets/**/*', to: './' },
+      { from: './assets/svg/sprites.svg', to: './assets/svg/sprites.svg' },
       { from: './favicon.png', to: './' },
     ])
   ],
