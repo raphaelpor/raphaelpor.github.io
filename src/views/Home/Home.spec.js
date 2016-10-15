@@ -9,9 +9,15 @@ describe('<Home />', function() {
 
   it('has a <h1>', function() {
     expect(wrapper.html()).to.contain('<h1');
+    expect(wrapper.html()).to.contain('</h1>');
   });
 
   it('shows "Hello!"', function() {
-    expect(wrapper.text()).to.equal("Hello!");
+    expect(wrapper.text()).to.contain("Hello!");
+  });
+
+  it('has a <div>', function() {
+    expect(wrapper.html()).to.contain('<div>');
+    expect(wrapper.html()).to.contain('</div>');
   });
 });
