@@ -5,7 +5,7 @@ function Avatar() {
   return (
     <div className="Avatar">
       <img
-        src="https://dummyimage.com/100x100/000/fff.png"
+        src="../../assets/avatar-mini.jpg"
         alt="Site name"
         title="Site name"
         width="100"
