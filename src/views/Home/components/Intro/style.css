@@ -1,0 +1,7 @@
+div.Intro h1 {
+  color: var(--primary);
+}
+
+div.Intro small {
+  color: var(--secundary);
+}
