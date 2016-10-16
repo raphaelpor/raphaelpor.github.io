@@ -6,6 +6,7 @@
 
 body {
   background-color: var(--bg-gray);
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
