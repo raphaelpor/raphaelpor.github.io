@@ -7,12 +7,13 @@ function SocialLinks() {
   const list = data.links.map(item =>
     <li>
       <a
+        className={`icon-${item.class}`}
         href={item.url}
         title={item.name}
         target="_blank"
         rel="noopener noreferrer"
       >
-        {item.name}
+        <span>{item.name}</span>
       </a>
     </li>
   );

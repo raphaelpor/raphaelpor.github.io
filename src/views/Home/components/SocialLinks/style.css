@@ -8,9 +8,19 @@ ul.SocialLinks li {
 
 ul.SocialLinks li a {
   display: block;
-  text-indent: -10000px;
-  background-color: var(--secundary);
+  color: var(--dark);
   width: 24px;
   height: 24px;
   margin: 0 5px;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+ul.SocialLinks li a:hover {
+  color: var(--primary);
+}
+
+ul.SocialLinks li span {
+  display: inline-block;
+  text-indent: -10000px;
 }
