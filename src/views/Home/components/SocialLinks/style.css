@@ -1,3 +1,16 @@
 ul.SocialLinks {
-  
+  padding: 0;
+}
+
+ul.SocialLinks li {
+  display: inline-block;
+}
+
+ul.SocialLinks li a {
+  display: block;
+  text-indent: -10000px;
+  background-color: var(--secundary);
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
 }
