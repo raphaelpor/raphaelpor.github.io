@@ -1,3 +1,19 @@
-img.Avatar {
+div.Avatar {
+  position: relative;
+}
+
+div.Avatar img {
+  border-radius: 50%;
+}
+
+div.Avatar:after {
+  content: " ";
+  position: absolute;
+  top: -3px;
+  left:-3px;
+  width: 106px;
+  height: 106px;
+  background-color: magenta;
+  z-index: -1;
   border-radius: 50%;
 }
