@@ -7,7 +7,7 @@ import SocialLinks from '../../shared/SocialLinks';
 
 function Home() {
   return (
-    <div className="Home">
+    <div className="Home container">
       <Avatar />
       <Intro />
       <SocialLinks />
