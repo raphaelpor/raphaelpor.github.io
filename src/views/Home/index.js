@@ -3,7 +3,7 @@ import './style.css';
 
 import Avatar from '../../shared/Avatar';
 import Intro from './components/Intro';
-import SocialLinks from './components/SocialLinks';
+import SocialLinks from '../../shared/SocialLinks';
 
 function Home() {
   return (
