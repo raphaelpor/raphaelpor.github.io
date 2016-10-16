@@ -6,18 +6,22 @@ export default {
     {
       name: 'Twitter',
       url: 'https://',
+      class: 'twitter',
     },
     {
-      name: 'GirHub',
+      name: 'GitHub',
       url: 'https://',
+      class: 'github',
     },
     {
       name: 'Linkedin',
       url: 'https://',
+      class: 'linkedin',
     },
     {
       name: 'CV',
       url: 'https://',
+      class: 'file-pdf',
     },
   ],
 };
