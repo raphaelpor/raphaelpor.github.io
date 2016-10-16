@@ -19,4 +19,17 @@ div.Avatar:after {
   background-color: var(--primary);
   z-index: -1;
   border-radius: 50%;
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% {
+     transform: rotate(0deg) translateX(3px);
+  }
+  50% {
+     transform: rotate(180deg) translateX(3px);
+  }
+  100% {
+     transform: rotate(360deg) translateX(3px);
+  }
 }
