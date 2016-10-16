@@ -1,11 +1,12 @@
 import React from 'react';
+import './style.css';
 
 import Avatar from '../../shared/Avatar';
 import Intro from './components/Intro';
 
 function Home() {
   return (
-    <div>
+    <div className="Home">
       <Avatar />
       <Intro />
     </div>
