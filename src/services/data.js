@@ -5,23 +5,19 @@ export default {
   links: [
     {
       name: 'Twitter',
-      url: 'https://',
-      class: 'twitter',
+      url: 'https://twitter.com/raphaelpor',
     },
     {
       name: 'GitHub',
-      url: 'https://',
-      class: 'github',
+      url: 'https://github.com/raphaelpor',
     },
     {
       name: 'Linkedin',
-      url: 'https://',
-      class: 'linkedin',
+      url: 'https://br.linkedin.com/in/raphaelpor',
     },
     {
-      name: 'CV',
-      url: 'https://',
-      class: 'file-pdf',
+      name: 'Medium',
+      url: 'https://medium.com/@raphaelporto',
     },
   ],
 };

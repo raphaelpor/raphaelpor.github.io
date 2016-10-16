@@ -7,7 +7,7 @@ function SocialLinks() {
   const list = data.links.map(item =>
     <li>
       <a
-        className={`icon-${item.class}`}
+        className={`icon-${item.name.toLowerCase()}`}
         href={item.url}
         title={item.name}
         target="_blank"
