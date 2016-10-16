@@ -7,7 +7,7 @@ function Intro() {
   return (
     <div className="Intro">
       <h1>{data.name}</h1>
-      <small>test</small>
+      <small>{data.role} @ {data.company}</small>
     </div>
   );
 }
