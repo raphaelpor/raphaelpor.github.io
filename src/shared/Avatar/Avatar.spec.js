@@ -19,4 +19,8 @@ describe('<Avatar />', function() {
   it('has a title', function() {
     expect(wrapper.html()).to.contain('title=');
   });
+
+  it('has a Avatar class', function() {
+    expect(wrapper.hasClass('Avatar')).to.equal(true);
+  });
 });
