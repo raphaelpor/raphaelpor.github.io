@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import { expect } from 'chai';
 
 import SocialLinks from './';
-import data from '../../../../services/data';
+import data from '../../services/data';
 
 describe('<SocialLinks />', function() {
   const wrapper = shallow(<SocialLinks />);
