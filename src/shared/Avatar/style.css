@@ -16,7 +16,7 @@ div.Avatar:after {
   left:-3px;
   width: 106px;
   height: 106px;
-  background-color: magenta;
+  background-color: var(--primary);
   z-index: -1;
   border-radius: 50%;
 }
