@@ -8,7 +8,7 @@ describe('<Intro />', function() {
   const wrapper = shallow(<Intro />);
 
   it('has a <div>', function() {
-    expect(wrapper.html()).to.contain('<div>');
+    expect(wrapper.html()).to.contain('<div');
     expect(wrapper.html()).to.contain('</div>');
   });
 
@@ -26,4 +26,7 @@ describe('<Intro />', function() {
     expect(wrapper.text()).to.contain("test");
   });
 
+  it('has a Intro class', function() {
+    expect(wrapper.hasClass('Intro')).to.equal(true);
+  });
 });
