@@ -12,6 +12,11 @@ describe('<CoreSkills />', function() {
     expect(wrapper.html()).to.contain('</div>');
   });
 
+  it('has a <h3>', function() {
+    expect(wrapper.html()).to.contain('<h3');
+    expect(wrapper.html()).to.contain('</h3>');
+  });
+
   it('has a CoreSkills class', function() {
     expect(wrapper.hasClass('CoreSkills')).to.equal(true);
   });
