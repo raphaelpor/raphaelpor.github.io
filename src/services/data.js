@@ -20,4 +20,6 @@ export default {
       url: 'https://medium.com/@raphaelporto',
     },
   ],
+  coreSkills: ['HTML', 'CSS', 'JS'],
+  libs: ['React', 'React Native', 'Rx.JS', 'Cycle.JS', 'Angular'],
 };
