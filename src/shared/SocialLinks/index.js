@@ -4,8 +4,8 @@ import './style.css';
 import data from '../../services/data';
 
 function SocialLinks() {
-  const list = data.links.map(item =>
-    <li>
+  const list = data.links.map((item, i) =>
+    <li key={i}>
       <a
         className={`icon-${item.name.toLowerCase()}`}
         href={item.url}
