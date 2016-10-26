@@ -1,1 +1,4 @@
-div.Skills {}
+div.Skills {
+  background-color: var(--dark);
+  color: white;
+}
